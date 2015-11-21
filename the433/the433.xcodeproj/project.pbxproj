@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11B8F272846516E4E1E5CD11 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F7CAE5FFCF60575D71624B /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		7446B7E11BFEFD2B009B2D69 /* FTTCommonFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7446B7E01BFEFD2B009B2D69 /* FTTCommonFunction.swift */; };
+		745628031BF9DCF500180D80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745628021BF9DCF500180D80 /* AppDelegate.swift */; };
+		745628051BF9DCF500180D80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745628041BF9DCF500180D80 /* ViewController.swift */; };
+		745628081BF9DCF500180D80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 745628061BF9DCF500180D80 /* Main.storyboard */; };
+		7456280A1BF9DCF500180D80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 745628091BF9DCF500180D80 /* Assets.xcassets */; };
+		7456280D1BF9DCF500180D80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7456280B1BF9DCF500180D80 /* LaunchScreen.storyboard */; };
+		745628151BFB0C0600180D80 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745628141BFB0C0600180D80 /* Alamofire.framework */; };
+		745628181BFB0ECA00180D80 /* FTTRequestEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745628171BFB0ECA00180D80 /* FTTRequestEntity.swift */; };
+		7456281A1BFB0F2A00180D80 /* FTTNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745628191BFB0F2A00180D80 /* FTTNetwork.swift */; };
+		7456281C1BFB122400180D80 /* FTTBaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7456281B1BFB122400180D80 /* FTTBaseService.swift */; };
+		745628281BFB140F00180D80 /* FTTBaseCTL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745628271BFB140F00180D80 /* FTTBaseCTL.swift */; };
+		7456282A1BFB145900180D80 /* FTTBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745628291BFB145900180D80 /* FTTBaseModel.swift */; };
+		7456282D1BFB174000180D80 /* SweetAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7456282C1BFB174000180D80 /* SweetAlert.swift */; };
+		7456282F1BFB1B9200180D80 /* FTTAlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7456282E1BFB1B9200180D80 /* FTTAlertManager.swift */; };
+		745628311BFB1BAA00180D80 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745628301BFB1BAA00180D80 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43107180EE10DDC7F801D5F4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		74177BB2E261C6BA39DCB0B3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7446B7E01BFEFD2B009B2D69 /* FTTCommonFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTCommonFunction.swift; sourceTree = "<group>"; };
+		745627FF1BF9DCF500180D80 /* the433.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = the433.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		745628021BF9DCF500180D80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		745628041BF9DCF500180D80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		745628071BF9DCF500180D80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		745628091BF9DCF500180D80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7456280C1BF9DCF500180D80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7456280E1BF9DCF500180D80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		745628141BFB0C0600180D80 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
+		745628171BFB0ECA00180D80 /* FTTRequestEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTRequestEntity.swift; sourceTree = "<group>"; };
+		745628191BFB0F2A00180D80 /* FTTNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTNetwork.swift; sourceTree = "<group>"; };
+		7456281B1BFB122400180D80 /* FTTBaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTBaseService.swift; sourceTree = "<group>"; };
+		745628271BFB140F00180D80 /* FTTBaseCTL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTBaseCTL.swift; sourceTree = "<group>"; };
+		745628291BFB145900180D80 /* FTTBaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTBaseModel.swift; sourceTree = "<group>"; };
+		7456282C1BFB174000180D80 /* SweetAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetAlert.swift; sourceTree = "<group>"; };
+		7456282E1BFB1B9200180D80 /* FTTAlertManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTAlertManager.swift; sourceTree = "<group>"; };
+		745628301BFB1BAA00180D80 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		80F7CAE5FFCF60575D71624B /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		745627FC1BF9DCF500180D80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				745628311BFB1BAA00180D80 /* QuartzCore.framework in Frameworks */,
+				745628151BFB0C0600180D80 /* Alamofire.framework in Frameworks */,
+				11B8F272846516E4E1E5CD11 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		468ACFC42A9EE5B4A95DDB8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				745628301BFB1BAA00180D80 /* QuartzCore.framework */,
+				745628141BFB0C0600180D80 /* Alamofire.framework */,
+				80F7CAE5FFCF60575D71624B /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FD9DB8922B21534BC70FBB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74177BB2E261C6BA39DCB0B3 /* Pods.debug.xcconfig */,
+				43107180EE10DDC7F801D5F4 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7446B7DF1BFEF599009B2D69 /* FTTCommon */ = {
+			isa = PBXGroup;
+			children = (
+				7446B7E01BFEFD2B009B2D69 /* FTTCommonFunction.swift */,
+			);
+			path = FTTCommon;
+			sourceTree = "<group>";
+		};
+		745627F61BF9DCF500180D80 = {
+			isa = PBXGroup;
+			children = (
+				7446B7DF1BFEF599009B2D69 /* FTTCommon */,
+				7456282B1BFB173100180D80 /* FTTAlert */,
+				745628221BFB13EC00180D80 /* FTTBase */,
+				7456281D1BFB135E00180D80 /* FTTAccout */,
+				745628161BFB0E0400180D80 /* FTTService */,
+				745628011BF9DCF500180D80 /* the433 */,
+				745628001BF9DCF500180D80 /* Products */,
+				5FD9DB8922B21534BC70FBB1 /* Pods */,
+				468ACFC42A9EE5B4A95DDB8F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		745628001BF9DCF500180D80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				745627FF1BF9DCF500180D80 /* the433.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		745628011BF9DCF500180D80 /* the433 */ = {
+			isa = PBXGroup;
+			children = (
+				745628021BF9DCF500180D80 /* AppDelegate.swift */,
+				745628041BF9DCF500180D80 /* ViewController.swift */,
+				745628061BF9DCF500180D80 /* Main.storyboard */,
+				745628091BF9DCF500180D80 /* Assets.xcassets */,
+				7456280B1BF9DCF500180D80 /* LaunchScreen.storyboard */,
+				7456280E1BF9DCF500180D80 /* Info.plist */,
+			);
+			path = the433;
+			sourceTree = "<group>";
+		};
+		745628161BFB0E0400180D80 /* FTTService */ = {
+			isa = PBXGroup;
+			children = (
+				745628171BFB0ECA00180D80 /* FTTRequestEntity.swift */,
+				745628191BFB0F2A00180D80 /* FTTNetwork.swift */,
+				7456281B1BFB122400180D80 /* FTTBaseService.swift */,
+			);
+			path = FTTService;
+			sourceTree = "<group>";
+		};
+		7456281D1BFB135E00180D80 /* FTTAccout */ = {
+			isa = PBXGroup;
+			children = (
+				7456281E1BFB13A600180D80 /* Controllers */,
+				7456281F1BFB13A600180D80 /* Models */,
+				745628201BFB13A600180D80 /* Resource */,
+				745628211BFB13A600180D80 /* Views */,
+			);
+			path = FTTAccout;
+			sourceTree = "<group>";
+		};
+		7456281E1BFB13A600180D80 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7456281F1BFB13A600180D80 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		745628201BFB13A600180D80 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		745628211BFB13A600180D80 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		745628221BFB13EC00180D80 /* FTTBase */ = {
+			isa = PBXGroup;
+			children = (
+				745628231BFB13EC00180D80 /* Controllers */,
+				745628241BFB13EC00180D80 /* Models */,
+				745628251BFB13EC00180D80 /* Resource */,
+				745628261BFB13EC00180D80 /* Views */,
+			);
+			path = FTTBase;
+			sourceTree = "<group>";
+		};
+		745628231BFB13EC00180D80 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				745628271BFB140F00180D80 /* FTTBaseCTL.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		745628241BFB13EC00180D80 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				745628291BFB145900180D80 /* FTTBaseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		745628251BFB13EC00180D80 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		745628261BFB13EC00180D80 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7456282B1BFB173100180D80 /* FTTAlert */ = {
+			isa = PBXGroup;
+			children = (
+				7456282C1BFB174000180D80 /* SweetAlert.swift */,
+				7456282E1BFB1B9200180D80 /* FTTAlertManager.swift */,
+			);
+			path = FTTAlert;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		745627FE1BF9DCF500180D80 /* the433 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 745628111BF9DCF500180D80 /* Build configuration list for PBXNativeTarget "the433" */;
+			buildPhases = (
+				D80D61D1327D5F35CEE54692 /* Check Pods Manifest.lock */,
+				745627FB1BF9DCF500180D80 /* Sources */,
+				745627FC1BF9DCF500180D80 /* Frameworks */,
+				745627FD1BF9DCF500180D80 /* Resources */,
+				74D8411F8D8FAB95D766DBEF /* Embed Pods Frameworks */,
+				9742A4A301F8A53F18C4C9E2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = the433;
+			productName = the433;
+			productReference = 745627FF1BF9DCF500180D80 /* the433.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		745627F71BF9DCF500180D80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = tuan800;
+				TargetAttributes = {
+					745627FE1BF9DCF500180D80 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 745627FA1BF9DCF500180D80 /* Build configuration list for PBXProject "the433" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 745627F61BF9DCF500180D80;
+			productRefGroup = 745628001BF9DCF500180D80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				745627FE1BF9DCF500180D80 /* the433 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		745627FD1BF9DCF500180D80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7456280D1BF9DCF500180D80 /* LaunchScreen.storyboard in Resources */,
+				7456280A1BF9DCF500180D80 /* Assets.xcassets in Resources */,
+				745628081BF9DCF500180D80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		74D8411F8D8FAB95D766DBEF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9742A4A301F8A53F18C4C9E2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D80D61D1327D5F35CEE54692 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		745627FB1BF9DCF500180D80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7456282F1BFB1B9200180D80 /* FTTAlertManager.swift in Sources */,
+				745628051BF9DCF500180D80 /* ViewController.swift in Sources */,
+				745628281BFB140F00180D80 /* FTTBaseCTL.swift in Sources */,
+				745628031BF9DCF500180D80 /* AppDelegate.swift in Sources */,
+				7456282D1BFB174000180D80 /* SweetAlert.swift in Sources */,
+				7446B7E11BFEFD2B009B2D69 /* FTTCommonFunction.swift in Sources */,
+				7456281C1BFB122400180D80 /* FTTBaseService.swift in Sources */,
+				745628181BFB0ECA00180D80 /* FTTRequestEntity.swift in Sources */,
+				7456282A1BFB145900180D80 /* FTTBaseModel.swift in Sources */,
+				7456281A1BFB0F2A00180D80 /* FTTNetwork.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		745628061BF9DCF500180D80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				745628071BF9DCF500180D80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7456280B1BF9DCF500180D80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7456280C1BF9DCF500180D80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7456280F1BF9DCF500180D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		745628101BF9DCF500180D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		745628121BF9DCF500180D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74177BB2E261C6BA39DCB0B3 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = the433/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huangyuanqing.the433;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		745628131BF9DCF500180D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43107180EE10DDC7F801D5F4 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = the433/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huangyuanqing.the433;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		745627FA1BF9DCF500180D80 /* Build configuration list for PBXProject "the433" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7456280F1BF9DCF500180D80 /* Debug */,
+				745628101BF9DCF500180D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		745628111BF9DCF500180D80 /* Build configuration list for PBXNativeTarget "the433" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				745628121BF9DCF500180D80 /* Debug */,
+				745628131BF9DCF500180D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 745627F71BF9DCF500180D80 /* Project object */;
+}
