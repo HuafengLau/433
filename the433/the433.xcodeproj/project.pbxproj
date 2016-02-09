@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11B8F272846516E4E1E5CD11 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F7CAE5FFCF60575D71624B /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		11B8F272846516E4E1E5CD11 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F7CAE5FFCF60575D71624B /* Pods.framework */; };
 		7446B7E11BFEFD2B009B2D69 /* FTTCommonFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7446B7E01BFEFD2B009B2D69 /* FTTCommonFunction.swift */; };
 		745628031BF9DCF500180D80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745628021BF9DCF500180D80 /* AppDelegate.swift */; };
 		745628051BF9DCF500180D80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745628041BF9DCF500180D80 /* ViewController.swift */; };
@@ -23,6 +23,80 @@
 		7456282D1BFB174000180D80 /* SweetAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7456282C1BFB174000180D80 /* SweetAlert.swift */; };
 		7456282F1BFB1B9200180D80 /* FTTAlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7456282E1BFB1B9200180D80 /* FTTAlertManager.swift */; };
 		745628311BFB1BAA00180D80 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745628301BFB1BAA00180D80 /* QuartzCore.framework */; };
+		74584E401C0C4A24009E98DD /* POPProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74584E3C1C0C4A24009E98DD /* POPProperty.swift */; };
+		74584E411C0C4A24009E98DD /* POPSwiftWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 74584E3E1C0C4A24009E98DD /* POPSwiftWrapper.m */; };
+		74584E421C0C4A24009E98DD /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 74584E3F1C0C4A24009E98DD /* README.md */; };
+		74584E451C0C4B36009E98DD /* FTTPOPBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74584E441C0C4B36009E98DD /* FTTPOPBubbleView.swift */; };
+		74584E471C0C4B50009E98DD /* FTTPOPBubbleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74584E461C0C4B50009E98DD /* FTTPOPBubbleView.xib */; };
+		74584E561C0C6F01009E98DD /* FTTHomeShowAllTypeVCL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74584E501C0C6F01009E98DD /* FTTHomeShowAllTypeVCL.swift */; };
+		74584E571C0C6F01009E98DD /* WaterfallCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74584E521C0C6F01009E98DD /* WaterfallCollectionViewLayout.swift */; };
+		74584E581C0C6F01009E98DD /* FTTHomeShowAllType.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74584E551C0C6F01009E98DD /* FTTHomeShowAllType.storyboard */; };
+		74584E5A1C0C6F5D009E98DD /* FTTCollectionBubbleViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74584E591C0C6F5D009E98DD /* FTTCollectionBubbleViewCell.swift */; };
+		7464D5181C192A0700E3C34E /* FTTHomeOneTypeShowDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464D5171C192A0700E3C34E /* FTTHomeOneTypeShowDetailView.swift */; };
+		7464D51A1C192A1F00E3C34E /* FTTHomeOneTypeShowDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7464D5191C192A1F00E3C34E /* FTTHomeOneTypeShowDetailView.xib */; };
+		74E363171C02FC0700C02418 /* FTTCommonLoginVCL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E363161C02FC0700C02418 /* FTTCommonLoginVCL.swift */; };
+		74E363191C02FC2C00C02418 /* FTTCommonLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E363181C02FC2C00C02418 /* FTTCommonLoginModel.swift */; };
+		74E3631B1C02FC4B00C02418 /* FTTCommonLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E3631A1C02FC4B00C02418 /* FTTCommonLogin.storyboard */; };
+		74E3631D1C03087200C02418 /* FTTDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E3631C1C03087200C02418 /* FTTDataManager.swift */; };
+		74E3631F1C0308A300C02418 /* FTTUserDefualtDefindKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E3631E1C0308A300C02418 /* FTTUserDefualtDefindKeys.swift */; };
+		74E363211C030B5000C02418 /* FTTAccountBaseVCL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E363201C030B5000C02418 /* FTTAccountBaseVCL.swift */; };
+		74E363281C0316EB00C02418 /* FTTAccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E363271C0316EB00C02418 /* FTTAccountService.swift */; };
+		74E363321C03FB4700C02418 /* FTTNSStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E363301C03FB4700C02418 /* FTTNSStringExtension.swift */; };
+		74E363331C03FB4700C02418 /* FTTStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E363311C03FB4700C02418 /* FTTStringExtension.swift */; };
+		74E363351C04013A00C02418 /* FTTUserVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E363341C04013A00C02418 /* FTTUserVo.swift */; };
+		74E3633B1C044F2300C02418 /* FTTRegisterVCL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E3633A1C044F2300C02418 /* FTTRegisterVCL.swift */; };
+		74E3633D1C044F4C00C02418 /* FTTRegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E3633C1C044F4C00C02418 /* FTTRegisterModel.swift */; };
+		74E3633F1C044F9700C02418 /* FTTRegister.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74E3633E1C044F9700C02418 /* FTTRegister.storyboard */; };
+		74E363411C04537500C02418 /* FTTAccountBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E363401C04537500C02418 /* FTTAccountBaseModel.swift */; };
+		9F1140BB1C20B63B0015C299 /* FTTHomeResultPageVCL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1140BA1C20B63B0015C299 /* FTTHomeResultPageVCL.swift */; };
+		9F1140BD1C20B64A0015C299 /* FTTHomeResultPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F1140BC1C20B64A0015C299 /* FTTHomeResultPage.storyboard */; };
+		9F1140C11C20B8810015C299 /* FTTBubbleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1140BF1C20B8810015C299 /* FTTBubbleItem.swift */; };
+		9F1140C31C20BA570015C299 /* FTTHomeResultHeaderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1140C21C20BA570015C299 /* FTTHomeResultHeaderItem.swift */; };
+		9F1140C51C20BB0F0015C299 /* FTTHomeResultPageTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1140C41C20BB0F0015C299 /* FTTHomeResultPageTableHeaderView.swift */; };
+		9F1140C71C20BB1A0015C299 /* FTTHomeResultPageTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F1140C61C20BB1A0015C299 /* FTTHomeResultPageTableHeaderView.xib */; };
+		9F1140C91C20C30B0015C299 /* FTTHomeResultService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1140C81C20C30B0015C299 /* FTTHomeResultService.swift */; };
+		9F1140CB1C20C4620015C299 /* FTTHomeResultPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1140CA1C20C4620015C299 /* FTTHomeResultPageModel.swift */; };
+		9F1140CD1C20C7B20015C299 /* FTTHomeResultTableSectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1140CC1C20C7B20015C299 /* FTTHomeResultTableSectionItem.swift */; };
+		9F1140CF1C20C8100015C299 /* FTTHomeResultPageSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1140CE1C20C8100015C299 /* FTTHomeResultPageSectionView.swift */; };
+		9F1140D11C20C8280015C299 /* FTTHomeResultPageSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F1140D01C20C8280015C299 /* FTTHomeResultPageSectionView.xib */; };
+		9F1140D31C20D1720015C299 /* FTTHomeResultAddTipsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1140D21C20D1720015C299 /* FTTHomeResultAddTipsItem.swift */; };
+		9F1140D51C20D19E0015C299 /* FTTHomeResultAddTipsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1140D41C20D19E0015C299 /* FTTHomeResultAddTipsCell.swift */; };
+		9F1140D71C20D1B80015C299 /* FTTHomeResultAddTipsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F1140D61C20D1B80015C299 /* FTTHomeResultAddTipsCell.xib */; };
+		9F1140D91C2213230015C299 /* FTTHomeResultFundItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1140D81C2213230015C299 /* FTTHomeResultFundItem.swift */; };
+		9F1140DB1C221CBE0015C299 /* FTTHomeResultFundCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1140DA1C221CBE0015C299 /* FTTHomeResultFundCell.swift */; };
+		9F1140DD1C221CCD0015C299 /* FTTHomeResultFundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F1140DC1C221CCD0015C299 /* FTTHomeResultFundCell.xib */; };
+		9F1140DF1C2363E40015C299 /* FTTHomeAssetsDetailVCL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1140DE1C2363E40015C299 /* FTTHomeAssetsDetailVCL.swift */; };
+		9F1140E11C2363F00015C299 /* FTTHomeAssetsDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F1140E01C2363F00015C299 /* FTTHomeAssetsDetail.storyboard */; };
+		9F1140E31C2375D70015C299 /* FTTForwardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1140E21C2375D70015C299 /* FTTForwardManager.swift */; };
+		9F24F15F1C0CA46300C93748 /* FTTHomeShowAllTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F24F15E1C0CA46300C93748 /* FTTHomeShowAllTypeModel.swift */; };
+		9F2FDF161C1B84F700D4BA21 /* FTTAddHomePageVCL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2FDF131C1B84F700D4BA21 /* FTTAddHomePageVCL.swift */; };
+		9F2FDF181C1B851300D4BA21 /* FTTAddHomePage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F2FDF171C1B851300D4BA21 /* FTTAddHomePage.storyboard */; };
+		9F2FDF1B1C1B864C00D4BA21 /* FTTAddBaseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2FDF1A1C1B864C00D4BA21 /* FTTAddBaseItem.swift */; };
+		9F2FDF1D1C1B869B00D4BA21 /* FTTAddHomeSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2FDF1C1C1B869B00D4BA21 /* FTTAddHomeSelectorView.swift */; };
+		9F2FDF1F1C1B86B900D4BA21 /* FTTAddHomeSelectorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F2FDF1E1C1B86B900D4BA21 /* FTTAddHomeSelectorView.xib */; };
+		9F2FDF211C1B970A00D4BA21 /* FTTAddHomePageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2FDF201C1B970A00D4BA21 /* FTTAddHomePageModel.swift */; };
+		9F7E824A1C54779E002904F1 /* FTTAccountCommonLoginBackImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F7E82481C54779E002904F1 /* FTTAccountCommonLoginBackImage.jpg */; };
+		9F7E824D1C5478C9002904F1 /* FTTAccountRegisterBackImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F7E824C1C5478C9002904F1 /* FTTAccountRegisterBackImage.jpg */; };
+		9F89C1BC1C26A372005873C0 /* FTTHomeFundCountChangeCVL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F89C1BB1C26A372005873C0 /* FTTHomeFundCountChangeCVL.swift */; };
+		9F89C1BE1C26A384005873C0 /* FTTHomeFundCountChange.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F89C1BD1C26A384005873C0 /* FTTHomeFundCountChange.storyboard */; };
+		9F89C1C01C26A41B005873C0 /* FTTHomeFundCountChangeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F89C1BF1C26A41B005873C0 /* FTTHomeFundCountChangeService.swift */; };
+		9F89C1C21C26A441005873C0 /* FTTHomeFundCountChangeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F89C1C11C26A441005873C0 /* FTTHomeFundCountChangeModel.swift */; };
+		9FB3FBC91C49A4570020A172 /* FTTHomeAssetsDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB3FBC81C49A4570020A172 /* FTTHomeAssetsDetailModel.swift */; };
+		9FB3FBCB1C49A4920020A172 /* FTTHomeAssetsDetailDeleteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB3FBCA1C49A4920020A172 /* FTTHomeAssetsDetailDeleteService.swift */; };
+		9FB3FBD41C49AD720020A172 /* FTTPersonalHomeVCL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB3FBD31C49AD720020A172 /* FTTPersonalHomeVCL.swift */; };
+		9FB3FBD61C49AD9B0020A172 /* FTTPersonalHome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB3FBD51C49AD9B0020A172 /* FTTPersonalHome.storyboard */; };
+		9FB3FBD81C49B0C20020A172 /* FTTPersonalCommonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB3FBD71C49B0C20020A172 /* FTTPersonalCommonItem.swift */; };
+		9FB3FBDA1C49B1170020A172 /* FTTPersonalHomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB3FBD91C49B1170020A172 /* FTTPersonalHomeModel.swift */; };
+		9FB3FC041C49C1400020A172 /* FTTPersonalHomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB3FC031C49C1400020A172 /* FTTPersonalHomeService.swift */; };
+		9FBBF9DB1C1F7D43002EEB3E /* FTTAddBaseTypePageVCL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBBF9DA1C1F7D43002EEB3E /* FTTAddBaseTypePageVCL.swift */; };
+		9FBBF9DD1C1F7D5B002EEB3E /* FTTAddBaseTypePage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FBBF9DC1C1F7D5B002EEB3E /* FTTAddBaseTypePage.storyboard */; };
+		9FBBF9DF1C1F8498002EEB3E /* FTTAddBaseTypePageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBBF9DE1C1F8498002EEB3E /* FTTAddBaseTypePageModel.swift */; };
+		9FBBF9E21C1F84F0002EEB3E /* FTTAddItemsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBBF9E11C1F84F0002EEB3E /* FTTAddItemsService.swift */; };
+		9FD5805C1C532C4800084EC7 /* FTTConfigService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD5805B1C532C4800084EC7 /* FTTConfigService.swift */; };
+		9FD809AE1C54B33B006B8E8E /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FD809AD1C54B33B006B8E8E /* Icon-120.png */; };
+		9FD809B11C54E86F006B8E8E /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FD809AF1C54E86F006B8E8E /* Icon-76.png */; };
+		9FD809B21C54E86F006B8E8E /* Icon-152.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FD809B01C54E86F006B8E8E /* Icon-152.png */; };
+		9FD809B41C54EF25006B8E8E /* Icon-167.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FD809B31C54EF25006B8E8E /* Icon-167.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,7 +119,83 @@
 		7456282C1BFB174000180D80 /* SweetAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetAlert.swift; sourceTree = "<group>"; };
 		7456282E1BFB1B9200180D80 /* FTTAlertManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTAlertManager.swift; sourceTree = "<group>"; };
 		745628301BFB1BAA00180D80 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		74584E3C1C0C4A24009E98DD /* POPProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POPProperty.swift; sourceTree = "<group>"; };
+		74584E3D1C0C4A24009E98DD /* POPSwiftWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPSwiftWrapper.h; sourceTree = "<group>"; };
+		74584E3E1C0C4A24009E98DD /* POPSwiftWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPSwiftWrapper.m; sourceTree = "<group>"; };
+		74584E3F1C0C4A24009E98DD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		74584E441C0C4B36009E98DD /* FTTPOPBubbleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTPOPBubbleView.swift; sourceTree = "<group>"; };
+		74584E461C0C4B50009E98DD /* FTTPOPBubbleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FTTPOPBubbleView.xib; sourceTree = "<group>"; };
+		74584E501C0C6F01009E98DD /* FTTHomeShowAllTypeVCL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTHomeShowAllTypeVCL.swift; sourceTree = "<group>"; };
+		74584E521C0C6F01009E98DD /* WaterfallCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterfallCollectionViewLayout.swift; sourceTree = "<group>"; };
+		74584E551C0C6F01009E98DD /* FTTHomeShowAllType.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FTTHomeShowAllType.storyboard; sourceTree = "<group>"; };
+		74584E591C0C6F5D009E98DD /* FTTCollectionBubbleViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTCollectionBubbleViewCell.swift; sourceTree = "<group>"; };
+		7464D5171C192A0700E3C34E /* FTTHomeOneTypeShowDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTHomeOneTypeShowDetailView.swift; sourceTree = "<group>"; };
+		7464D5191C192A1F00E3C34E /* FTTHomeOneTypeShowDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FTTHomeOneTypeShowDetailView.xib; sourceTree = "<group>"; };
+		74E363161C02FC0700C02418 /* FTTCommonLoginVCL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTCommonLoginVCL.swift; sourceTree = "<group>"; };
+		74E363181C02FC2C00C02418 /* FTTCommonLoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTCommonLoginModel.swift; sourceTree = "<group>"; };
+		74E3631A1C02FC4B00C02418 /* FTTCommonLogin.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FTTCommonLogin.storyboard; sourceTree = "<group>"; };
+		74E3631C1C03087200C02418 /* FTTDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTDataManager.swift; sourceTree = "<group>"; };
+		74E3631E1C0308A300C02418 /* FTTUserDefualtDefindKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTUserDefualtDefindKeys.swift; sourceTree = "<group>"; };
+		74E363201C030B5000C02418 /* FTTAccountBaseVCL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTAccountBaseVCL.swift; sourceTree = "<group>"; };
+		74E363271C0316EB00C02418 /* FTTAccountService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTAccountService.swift; sourceTree = "<group>"; };
+		74E363301C03FB4700C02418 /* FTTNSStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTNSStringExtension.swift; sourceTree = "<group>"; };
+		74E363311C03FB4700C02418 /* FTTStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTStringExtension.swift; sourceTree = "<group>"; };
+		74E363341C04013A00C02418 /* FTTUserVo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTUserVo.swift; sourceTree = "<group>"; };
+		74E363361C04053C00C02418 /* the433-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "the433-Bridging-Header.h"; sourceTree = "<group>"; };
+		74E3633A1C044F2300C02418 /* FTTRegisterVCL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTRegisterVCL.swift; sourceTree = "<group>"; };
+		74E3633C1C044F4C00C02418 /* FTTRegisterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTRegisterModel.swift; sourceTree = "<group>"; };
+		74E3633E1C044F9700C02418 /* FTTRegister.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FTTRegister.storyboard; sourceTree = "<group>"; };
+		74E363401C04537500C02418 /* FTTAccountBaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTAccountBaseModel.swift; sourceTree = "<group>"; };
 		80F7CAE5FFCF60575D71624B /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1140BA1C20B63B0015C299 /* FTTHomeResultPageVCL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTHomeResultPageVCL.swift; sourceTree = "<group>"; };
+		9F1140BC1C20B64A0015C299 /* FTTHomeResultPage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FTTHomeResultPage.storyboard; sourceTree = "<group>"; };
+		9F1140BF1C20B8810015C299 /* FTTBubbleItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTBubbleItem.swift; sourceTree = "<group>"; };
+		9F1140C21C20BA570015C299 /* FTTHomeResultHeaderItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTHomeResultHeaderItem.swift; sourceTree = "<group>"; };
+		9F1140C41C20BB0F0015C299 /* FTTHomeResultPageTableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTHomeResultPageTableHeaderView.swift; sourceTree = "<group>"; };
+		9F1140C61C20BB1A0015C299 /* FTTHomeResultPageTableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FTTHomeResultPageTableHeaderView.xib; sourceTree = "<group>"; };
+		9F1140C81C20C30B0015C299 /* FTTHomeResultService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTHomeResultService.swift; sourceTree = "<group>"; };
+		9F1140CA1C20C4620015C299 /* FTTHomeResultPageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTHomeResultPageModel.swift; sourceTree = "<group>"; };
+		9F1140CC1C20C7B20015C299 /* FTTHomeResultTableSectionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTHomeResultTableSectionItem.swift; sourceTree = "<group>"; };
+		9F1140CE1C20C8100015C299 /* FTTHomeResultPageSectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTHomeResultPageSectionView.swift; sourceTree = "<group>"; };
+		9F1140D01C20C8280015C299 /* FTTHomeResultPageSectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FTTHomeResultPageSectionView.xib; sourceTree = "<group>"; };
+		9F1140D21C20D1720015C299 /* FTTHomeResultAddTipsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTHomeResultAddTipsItem.swift; sourceTree = "<group>"; };
+		9F1140D41C20D19E0015C299 /* FTTHomeResultAddTipsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTHomeResultAddTipsCell.swift; sourceTree = "<group>"; };
+		9F1140D61C20D1B80015C299 /* FTTHomeResultAddTipsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FTTHomeResultAddTipsCell.xib; sourceTree = "<group>"; };
+		9F1140D81C2213230015C299 /* FTTHomeResultFundItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTHomeResultFundItem.swift; sourceTree = "<group>"; };
+		9F1140DA1C221CBE0015C299 /* FTTHomeResultFundCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTHomeResultFundCell.swift; sourceTree = "<group>"; };
+		9F1140DC1C221CCD0015C299 /* FTTHomeResultFundCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FTTHomeResultFundCell.xib; sourceTree = "<group>"; };
+		9F1140DE1C2363E40015C299 /* FTTHomeAssetsDetailVCL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTHomeAssetsDetailVCL.swift; sourceTree = "<group>"; };
+		9F1140E01C2363F00015C299 /* FTTHomeAssetsDetail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FTTHomeAssetsDetail.storyboard; sourceTree = "<group>"; };
+		9F1140E21C2375D70015C299 /* FTTForwardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTForwardManager.swift; sourceTree = "<group>"; };
+		9F24F15E1C0CA46300C93748 /* FTTHomeShowAllTypeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTHomeShowAllTypeModel.swift; sourceTree = "<group>"; };
+		9F2FDF131C1B84F700D4BA21 /* FTTAddHomePageVCL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTAddHomePageVCL.swift; sourceTree = "<group>"; };
+		9F2FDF171C1B851300D4BA21 /* FTTAddHomePage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FTTAddHomePage.storyboard; sourceTree = "<group>"; };
+		9F2FDF1A1C1B864C00D4BA21 /* FTTAddBaseItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTAddBaseItem.swift; sourceTree = "<group>"; };
+		9F2FDF1C1C1B869B00D4BA21 /* FTTAddHomeSelectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTAddHomeSelectorView.swift; sourceTree = "<group>"; };
+		9F2FDF1E1C1B86B900D4BA21 /* FTTAddHomeSelectorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FTTAddHomeSelectorView.xib; sourceTree = "<group>"; };
+		9F2FDF201C1B970A00D4BA21 /* FTTAddHomePageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTAddHomePageModel.swift; sourceTree = "<group>"; };
+		9F7E82481C54779E002904F1 /* FTTAccountCommonLoginBackImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FTTAccountCommonLoginBackImage.jpg; sourceTree = "<group>"; };
+		9F7E824C1C5478C9002904F1 /* FTTAccountRegisterBackImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FTTAccountRegisterBackImage.jpg; sourceTree = "<group>"; };
+		9F89C1BB1C26A372005873C0 /* FTTHomeFundCountChangeCVL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTHomeFundCountChangeCVL.swift; sourceTree = "<group>"; };
+		9F89C1BD1C26A384005873C0 /* FTTHomeFundCountChange.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FTTHomeFundCountChange.storyboard; sourceTree = "<group>"; };
+		9F89C1BF1C26A41B005873C0 /* FTTHomeFundCountChangeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTHomeFundCountChangeService.swift; sourceTree = "<group>"; };
+		9F89C1C11C26A441005873C0 /* FTTHomeFundCountChangeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTHomeFundCountChangeModel.swift; sourceTree = "<group>"; };
+		9FB3FBC81C49A4570020A172 /* FTTHomeAssetsDetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTHomeAssetsDetailModel.swift; sourceTree = "<group>"; };
+		9FB3FBCA1C49A4920020A172 /* FTTHomeAssetsDetailDeleteService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTHomeAssetsDetailDeleteService.swift; sourceTree = "<group>"; };
+		9FB3FBD31C49AD720020A172 /* FTTPersonalHomeVCL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTPersonalHomeVCL.swift; sourceTree = "<group>"; };
+		9FB3FBD51C49AD9B0020A172 /* FTTPersonalHome.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FTTPersonalHome.storyboard; sourceTree = "<group>"; };
+		9FB3FBD71C49B0C20020A172 /* FTTPersonalCommonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTPersonalCommonItem.swift; sourceTree = "<group>"; };
+		9FB3FBD91C49B1170020A172 /* FTTPersonalHomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTPersonalHomeModel.swift; sourceTree = "<group>"; };
+		9FB3FC031C49C1400020A172 /* FTTPersonalHomeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTPersonalHomeService.swift; sourceTree = "<group>"; };
+		9FBBF9DA1C1F7D43002EEB3E /* FTTAddBaseTypePageVCL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTAddBaseTypePageVCL.swift; sourceTree = "<group>"; };
+		9FBBF9DC1C1F7D5B002EEB3E /* FTTAddBaseTypePage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FTTAddBaseTypePage.storyboard; sourceTree = "<group>"; };
+		9FBBF9DE1C1F8498002EEB3E /* FTTAddBaseTypePageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTAddBaseTypePageModel.swift; sourceTree = "<group>"; };
+		9FBBF9E11C1F84F0002EEB3E /* FTTAddItemsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTAddItemsService.swift; sourceTree = "<group>"; };
+		9FD5805B1C532C4800084EC7 /* FTTConfigService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTTConfigService.swift; sourceTree = "<group>"; };
+		9FD809AD1C54B33B006B8E8E /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
+		9FD809AF1C54E86F006B8E8E /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		9FD809B01C54E86F006B8E8E /* Icon-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-152.png"; sourceTree = "<group>"; };
+		9FD809B31C54EF25006B8E8E /* Icon-167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-167.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +235,9 @@
 			isa = PBXGroup;
 			children = (
 				7446B7E01BFEFD2B009B2D69 /* FTTCommonFunction.swift */,
+				74E3631C1C03087200C02418 /* FTTDataManager.swift */,
+				74E3631E1C0308A300C02418 /* FTTUserDefualtDefindKeys.swift */,
+				9F1140E21C2375D70015C299 /* FTTForwardManager.swift */,
 			);
 			path = FTTCommon;
 			sourceTree = "<group>";
@@ -92,6 +245,12 @@
 		745627F61BF9DCF500180D80 = {
 			isa = PBXGroup;
 			children = (
+				9FD809AC1C54B33B006B8E8E /* resource */,
+				9FB3FBCD1C49AD3B0020A172 /* FTTPersonalHome */,
+				9F2FDF0F1C1B83E300D4BA21 /* FTTAdd */,
+				74584E481C0C6B2A009E98DD /* FTTHome */,
+				74584E2F1C0C4841009E98DD /* FTTPop */,
+				74E363291C031AD500C02418 /* FTTCore */,
 				7446B7DF1BFEF599009B2D69 /* FTTCommon */,
 				7456282B1BFB173100180D80 /* FTTAlert */,
 				745628221BFB13EC00180D80 /* FTTBase */,
@@ -138,6 +297,7 @@
 		7456281D1BFB135E00180D80 /* FTTAccout */ = {
 			isa = PBXGroup;
 			children = (
+				74E363261C0316C400C02418 /* Service */,
 				7456281E1BFB13A600180D80 /* Controllers */,
 				7456281F1BFB13A600180D80 /* Models */,
 				745628201BFB13A600180D80 /* Resource */,
@@ -149,6 +309,9 @@
 		7456281E1BFB13A600180D80 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				74E363161C02FC0700C02418 /* FTTCommonLoginVCL.swift */,
+				74E363201C030B5000C02418 /* FTTAccountBaseVCL.swift */,
+				74E3633A1C044F2300C02418 /* FTTRegisterVCL.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -156,6 +319,10 @@
 		7456281F1BFB13A600180D80 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				74E363181C02FC2C00C02418 /* FTTCommonLoginModel.swift */,
+				74E363341C04013A00C02418 /* FTTUserVo.swift */,
+				74E3633C1C044F4C00C02418 /* FTTRegisterModel.swift */,
+				74E363401C04537500C02418 /* FTTAccountBaseModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -163,6 +330,8 @@
 		745628201BFB13A600180D80 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				9F7E824C1C5478C9002904F1 /* FTTAccountRegisterBackImage.jpg */,
+				9F7E82481C54779E002904F1 /* FTTAccountCommonLoginBackImage.jpg */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -170,6 +339,8 @@
 		745628211BFB13A600180D80 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				74E3631A1C02FC4B00C02418 /* FTTCommonLogin.storyboard */,
+				74E3633E1C044F9700C02418 /* FTTRegister.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -224,6 +395,277 @@
 			path = FTTAlert;
 			sourceTree = "<group>";
 		};
+		74584E2F1C0C4841009E98DD /* FTTPop */ = {
+			isa = PBXGroup;
+			children = (
+				74584E431C0C4A43009E98DD /* POPBubbles */,
+				74584E3B1C0C4A24009E98DD /* POPBase */,
+			);
+			path = FTTPop;
+			sourceTree = "<group>";
+		};
+		74584E3B1C0C4A24009E98DD /* POPBase */ = {
+			isa = PBXGroup;
+			children = (
+				74584E3C1C0C4A24009E98DD /* POPProperty.swift */,
+				74584E3D1C0C4A24009E98DD /* POPSwiftWrapper.h */,
+				74584E3E1C0C4A24009E98DD /* POPSwiftWrapper.m */,
+				74584E3F1C0C4A24009E98DD /* README.md */,
+			);
+			path = POPBase;
+			sourceTree = "<group>";
+		};
+		74584E431C0C4A43009E98DD /* POPBubbles */ = {
+			isa = PBXGroup;
+			children = (
+				74584E441C0C4B36009E98DD /* FTTPOPBubbleView.swift */,
+				74584E461C0C4B50009E98DD /* FTTPOPBubbleView.xib */,
+			);
+			path = POPBubbles;
+			sourceTree = "<group>";
+		};
+		74584E481C0C6B2A009E98DD /* FTTHome */ = {
+			isa = PBXGroup;
+			children = (
+				9FB3FBFF1C49BA420020A172 /* Resources */,
+				74584E4F1C0C6F01009E98DD /* Controllers */,
+				74584E511C0C6F01009E98DD /* FTTCollectionBase */,
+				74584E531C0C6F01009E98DD /* Models */,
+				74584E541C0C6F01009E98DD /* Views */,
+			);
+			path = FTTHome;
+			sourceTree = "<group>";
+		};
+		74584E4F1C0C6F01009E98DD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				74584E501C0C6F01009E98DD /* FTTHomeShowAllTypeVCL.swift */,
+				9F1140BA1C20B63B0015C299 /* FTTHomeResultPageVCL.swift */,
+				9F1140DE1C2363E40015C299 /* FTTHomeAssetsDetailVCL.swift */,
+				9F89C1BB1C26A372005873C0 /* FTTHomeFundCountChangeCVL.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		74584E511C0C6F01009E98DD /* FTTCollectionBase */ = {
+			isa = PBXGroup;
+			children = (
+				74584E521C0C6F01009E98DD /* WaterfallCollectionViewLayout.swift */,
+			);
+			path = FTTCollectionBase;
+			sourceTree = "<group>";
+		};
+		74584E531C0C6F01009E98DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9F1140BE1C20B8810015C299 /* items */,
+				9F1140C01C20B8810015C299 /* services */,
+				9F24F15E1C0CA46300C93748 /* FTTHomeShowAllTypeModel.swift */,
+				9F1140CA1C20C4620015C299 /* FTTHomeResultPageModel.swift */,
+				9F89C1C11C26A441005873C0 /* FTTHomeFundCountChangeModel.swift */,
+				9FB3FBC81C49A4570020A172 /* FTTHomeAssetsDetailModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		74584E541C0C6F01009E98DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				74584E551C0C6F01009E98DD /* FTTHomeShowAllType.storyboard */,
+				74584E591C0C6F5D009E98DD /* FTTCollectionBubbleViewCell.swift */,
+				7464D5171C192A0700E3C34E /* FTTHomeOneTypeShowDetailView.swift */,
+				7464D5191C192A1F00E3C34E /* FTTHomeOneTypeShowDetailView.xib */,
+				9F1140BC1C20B64A0015C299 /* FTTHomeResultPage.storyboard */,
+				9F1140C41C20BB0F0015C299 /* FTTHomeResultPageTableHeaderView.swift */,
+				9F1140C61C20BB1A0015C299 /* FTTHomeResultPageTableHeaderView.xib */,
+				9F1140CE1C20C8100015C299 /* FTTHomeResultPageSectionView.swift */,
+				9F1140D01C20C8280015C299 /* FTTHomeResultPageSectionView.xib */,
+				9F1140D41C20D19E0015C299 /* FTTHomeResultAddTipsCell.swift */,
+				9F1140D61C20D1B80015C299 /* FTTHomeResultAddTipsCell.xib */,
+				9F1140DA1C221CBE0015C299 /* FTTHomeResultFundCell.swift */,
+				9F1140DC1C221CCD0015C299 /* FTTHomeResultFundCell.xib */,
+				9F1140E01C2363F00015C299 /* FTTHomeAssetsDetail.storyboard */,
+				9F89C1BD1C26A384005873C0 /* FTTHomeFundCountChange.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		74E363261C0316C400C02418 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				74E363271C0316EB00C02418 /* FTTAccountService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		74E363291C031AD500C02418 /* FTTCore */ = {
+			isa = PBXGroup;
+			children = (
+				9FD5805B1C532C4800084EC7 /* FTTConfigService.swift */,
+				74E363301C03FB4700C02418 /* FTTNSStringExtension.swift */,
+				74E363311C03FB4700C02418 /* FTTStringExtension.swift */,
+				74E363361C04053C00C02418 /* the433-Bridging-Header.h */,
+			);
+			path = FTTCore;
+			sourceTree = "<group>";
+		};
+		9F1140BE1C20B8810015C299 /* items */ = {
+			isa = PBXGroup;
+			children = (
+				9F1140BF1C20B8810015C299 /* FTTBubbleItem.swift */,
+				9F1140C21C20BA570015C299 /* FTTHomeResultHeaderItem.swift */,
+				9F1140CC1C20C7B20015C299 /* FTTHomeResultTableSectionItem.swift */,
+				9F1140D21C20D1720015C299 /* FTTHomeResultAddTipsItem.swift */,
+				9F1140D81C2213230015C299 /* FTTHomeResultFundItem.swift */,
+			);
+			path = items;
+			sourceTree = "<group>";
+		};
+		9F1140C01C20B8810015C299 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				9F1140C81C20C30B0015C299 /* FTTHomeResultService.swift */,
+				9F89C1BF1C26A41B005873C0 /* FTTHomeFundCountChangeService.swift */,
+				9FB3FBCA1C49A4920020A172 /* FTTHomeAssetsDetailDeleteService.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		9F2FDF0F1C1B83E300D4BA21 /* FTTAdd */ = {
+			isa = PBXGroup;
+			children = (
+				9F2FDF121C1B84F700D4BA21 /* Controllers */,
+				9F2FDF141C1B84F700D4BA21 /* Models */,
+				9F2FDF151C1B84F700D4BA21 /* Views */,
+			);
+			path = FTTAdd;
+			sourceTree = "<group>";
+		};
+		9F2FDF121C1B84F700D4BA21 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F2FDF131C1B84F700D4BA21 /* FTTAddHomePageVCL.swift */,
+				9FBBF9DA1C1F7D43002EEB3E /* FTTAddBaseTypePageVCL.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9F2FDF141C1B84F700D4BA21 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9FBBF9E01C1F84BD002EEB3E /* services */,
+				9F2FDF191C1B863000D4BA21 /* items */,
+				9F2FDF201C1B970A00D4BA21 /* FTTAddHomePageModel.swift */,
+				9FBBF9DE1C1F8498002EEB3E /* FTTAddBaseTypePageModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9F2FDF151C1B84F700D4BA21 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9F2FDF171C1B851300D4BA21 /* FTTAddHomePage.storyboard */,
+				9F2FDF1C1C1B869B00D4BA21 /* FTTAddHomeSelectorView.swift */,
+				9F2FDF1E1C1B86B900D4BA21 /* FTTAddHomeSelectorView.xib */,
+				9FBBF9DC1C1F7D5B002EEB3E /* FTTAddBaseTypePage.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9F2FDF191C1B863000D4BA21 /* items */ = {
+			isa = PBXGroup;
+			children = (
+				9F2FDF1A1C1B864C00D4BA21 /* FTTAddBaseItem.swift */,
+			);
+			path = items;
+			sourceTree = "<group>";
+		};
+		9FB3FBCD1C49AD3B0020A172 /* FTTPersonalHome */ = {
+			isa = PBXGroup;
+			children = (
+				9FB3FBCE1C49AD3B0020A172 /* Controllers */,
+				9FB3FBCF1C49AD3B0020A172 /* Models */,
+				9FB3FBD21C49AD3B0020A172 /* Views */,
+			);
+			path = FTTPersonalHome;
+			sourceTree = "<group>";
+		};
+		9FB3FBCE1C49AD3B0020A172 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9FB3FBD31C49AD720020A172 /* FTTPersonalHomeVCL.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9FB3FBCF1C49AD3B0020A172 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9FB3FBD01C49AD3B0020A172 /* Items */,
+				9FB3FBD11C49AD3B0020A172 /* Services */,
+				9FB3FBD91C49B1170020A172 /* FTTPersonalHomeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9FB3FBD01C49AD3B0020A172 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				9FB3FBD71C49B0C20020A172 /* FTTPersonalCommonItem.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		9FB3FBD11C49AD3B0020A172 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9FB3FC031C49C1400020A172 /* FTTPersonalHomeService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9FB3FBD21C49AD3B0020A172 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9FB3FBD51C49AD9B0020A172 /* FTTPersonalHome.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9FB3FBFF1C49BA420020A172 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9FB3FC001C49BA420020A172 /* images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9FB3FC001C49BA420020A172 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		9FBBF9E01C1F84BD002EEB3E /* services */ = {
+			isa = PBXGroup;
+			children = (
+				9FBBF9E11C1F84F0002EEB3E /* FTTAddItemsService.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		9FD809AC1C54B33B006B8E8E /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				9FD809B31C54EF25006B8E8E /* Icon-167.png */,
+				9FD809AF1C54E86F006B8E8E /* Icon-76.png */,
+				9FD809B01C54E86F006B8E8E /* Icon-152.png */,
+				9FD809AD1C54B33B006B8E8E /* Icon-120.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -259,6 +701,7 @@
 				TargetAttributes = {
 					745627FE1BF9DCF500180D80 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = EXVF8X638T;
 					};
 				};
 			};
@@ -285,9 +728,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F1140E11C2363F00015C299 /* FTTHomeAssetsDetail.storyboard in Resources */,
+				9F7E824D1C5478C9002904F1 /* FTTAccountRegisterBackImage.jpg in Resources */,
+				9F1140DD1C221CCD0015C299 /* FTTHomeResultFundCell.xib in Resources */,
+				9FD809B41C54EF25006B8E8E /* Icon-167.png in Resources */,
+				74E3633F1C044F9700C02418 /* FTTRegister.storyboard in Resources */,
+				74E3631B1C02FC4B00C02418 /* FTTCommonLogin.storyboard in Resources */,
+				9F2FDF1F1C1B86B900D4BA21 /* FTTAddHomeSelectorView.xib in Resources */,
 				7456280D1BF9DCF500180D80 /* LaunchScreen.storyboard in Resources */,
+				9FD809AE1C54B33B006B8E8E /* Icon-120.png in Resources */,
+				9F1140C71C20BB1A0015C299 /* FTTHomeResultPageTableHeaderView.xib in Resources */,
+				9FD809B11C54E86F006B8E8E /* Icon-76.png in Resources */,
+				9FD809B21C54E86F006B8E8E /* Icon-152.png in Resources */,
+				7464D51A1C192A1F00E3C34E /* FTTHomeOneTypeShowDetailView.xib in Resources */,
+				9FBBF9DD1C1F7D5B002EEB3E /* FTTAddBaseTypePage.storyboard in Resources */,
+				9F1140D11C20C8280015C299 /* FTTHomeResultPageSectionView.xib in Resources */,
 				7456280A1BF9DCF500180D80 /* Assets.xcassets in Resources */,
+				74584E471C0C4B50009E98DD /* FTTPOPBubbleView.xib in Resources */,
+				9F89C1BE1C26A384005873C0 /* FTTHomeFundCountChange.storyboard in Resources */,
 				745628081BF9DCF500180D80 /* Main.storyboard in Resources */,
+				9F1140D71C20D1B80015C299 /* FTTHomeResultAddTipsCell.xib in Resources */,
+				9F7E824A1C54779E002904F1 /* FTTAccountCommonLoginBackImage.jpg in Resources */,
+				9FB3FBD61C49AD9B0020A172 /* FTTPersonalHome.storyboard in Resources */,
+				74584E581C0C6F01009E98DD /* FTTHomeShowAllType.storyboard in Resources */,
+				9F2FDF181C1B851300D4BA21 /* FTTAddHomePage.storyboard in Resources */,
+				9F1140BD1C20B64A0015C299 /* FTTHomeResultPage.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,15 +812,67 @@
 			buildActionMask = 2147483647;
 			files = (
 				7456282F1BFB1B9200180D80 /* FTTAlertManager.swift in Sources */,
+				9F1140DB1C221CBE0015C299 /* FTTHomeResultFundCell.swift in Sources */,
+				9F89C1C21C26A441005873C0 /* FTTHomeFundCountChangeModel.swift in Sources */,
+				74584E571C0C6F01009E98DD /* WaterfallCollectionViewLayout.swift in Sources */,
+				9F1140CB1C20C4620015C299 /* FTTHomeResultPageModel.swift in Sources */,
+				74E363191C02FC2C00C02418 /* FTTCommonLoginModel.swift in Sources */,
+				7464D5181C192A0700E3C34E /* FTTHomeOneTypeShowDetailView.swift in Sources */,
+				9F1140C91C20C30B0015C299 /* FTTHomeResultService.swift in Sources */,
+				74584E411C0C4A24009E98DD /* POPSwiftWrapper.m in Sources */,
 				745628051BF9DCF500180D80 /* ViewController.swift in Sources */,
+				74584E421C0C4A24009E98DD /* README.md in Sources */,
+				9F1140D51C20D19E0015C299 /* FTTHomeResultAddTipsCell.swift in Sources */,
+				9FB3FBCB1C49A4920020A172 /* FTTHomeAssetsDetailDeleteService.swift in Sources */,
+				9F1140D91C2213230015C299 /* FTTHomeResultFundItem.swift in Sources */,
+				74E3631F1C0308A300C02418 /* FTTUserDefualtDefindKeys.swift in Sources */,
+				9F1140DF1C2363E40015C299 /* FTTHomeAssetsDetailVCL.swift in Sources */,
+				74584E451C0C4B36009E98DD /* FTTPOPBubbleView.swift in Sources */,
+				74E3633B1C044F2300C02418 /* FTTRegisterVCL.swift in Sources */,
+				9FD5805C1C532C4800084EC7 /* FTTConfigService.swift in Sources */,
+				74E3633D1C044F4C00C02418 /* FTTRegisterModel.swift in Sources */,
+				9FB3FBD41C49AD720020A172 /* FTTPersonalHomeVCL.swift in Sources */,
+				74E363351C04013A00C02418 /* FTTUserVo.swift in Sources */,
+				9F2FDF211C1B970A00D4BA21 /* FTTAddHomePageModel.swift in Sources */,
+				74E363281C0316EB00C02418 /* FTTAccountService.swift in Sources */,
+				9FB3FBD81C49B0C20020A172 /* FTTPersonalCommonItem.swift in Sources */,
+				9F2FDF161C1B84F700D4BA21 /* FTTAddHomePageVCL.swift in Sources */,
+				9F1140C11C20B8810015C299 /* FTTBubbleItem.swift in Sources */,
+				9FB3FBC91C49A4570020A172 /* FTTHomeAssetsDetailModel.swift in Sources */,
+				9F89C1C01C26A41B005873C0 /* FTTHomeFundCountChangeService.swift in Sources */,
+				74584E401C0C4A24009E98DD /* POPProperty.swift in Sources */,
 				745628281BFB140F00180D80 /* FTTBaseCTL.swift in Sources */,
+				9F89C1BC1C26A372005873C0 /* FTTHomeFundCountChangeCVL.swift in Sources */,
+				74584E5A1C0C6F5D009E98DD /* FTTCollectionBubbleViewCell.swift in Sources */,
+				9F1140BB1C20B63B0015C299 /* FTTHomeResultPageVCL.swift in Sources */,
+				9F1140E31C2375D70015C299 /* FTTForwardManager.swift in Sources */,
+				9F1140D31C20D1720015C299 /* FTTHomeResultAddTipsItem.swift in Sources */,
+				9FBBF9DB1C1F7D43002EEB3E /* FTTAddBaseTypePageVCL.swift in Sources */,
+				74584E561C0C6F01009E98DD /* FTTHomeShowAllTypeVCL.swift in Sources */,
+				9FB3FBDA1C49B1170020A172 /* FTTPersonalHomeModel.swift in Sources */,
+				74E363411C04537500C02418 /* FTTAccountBaseModel.swift in Sources */,
 				745628031BF9DCF500180D80 /* AppDelegate.swift in Sources */,
+				9F2FDF1B1C1B864C00D4BA21 /* FTTAddBaseItem.swift in Sources */,
+				74E363211C030B5000C02418 /* FTTAccountBaseVCL.swift in Sources */,
+				74E363171C02FC0700C02418 /* FTTCommonLoginVCL.swift in Sources */,
+				9F1140CD1C20C7B20015C299 /* FTTHomeResultTableSectionItem.swift in Sources */,
 				7456282D1BFB174000180D80 /* SweetAlert.swift in Sources */,
+				9F1140CF1C20C8100015C299 /* FTTHomeResultPageSectionView.swift in Sources */,
 				7446B7E11BFEFD2B009B2D69 /* FTTCommonFunction.swift in Sources */,
+				9F2FDF1D1C1B869B00D4BA21 /* FTTAddHomeSelectorView.swift in Sources */,
+				9F1140C51C20BB0F0015C299 /* FTTHomeResultPageTableHeaderView.swift in Sources */,
 				7456281C1BFB122400180D80 /* FTTBaseService.swift in Sources */,
+				9F1140C31C20BA570015C299 /* FTTHomeResultHeaderItem.swift in Sources */,
 				745628181BFB0ECA00180D80 /* FTTRequestEntity.swift in Sources */,
+				74E363321C03FB4700C02418 /* FTTNSStringExtension.swift in Sources */,
 				7456282A1BFB145900180D80 /* FTTBaseModel.swift in Sources */,
+				9F24F15F1C0CA46300C93748 /* FTTHomeShowAllTypeModel.swift in Sources */,
+				74E363331C03FB4700C02418 /* FTTStringExtension.swift in Sources */,
 				7456281A1BFB0F2A00180D80 /* FTTNetwork.swift in Sources */,
+				9FBBF9E21C1F84F0002EEB3E /* FTTAddItemsService.swift in Sources */,
+				74E3631D1C03087200C02418 /* FTTDataManager.swift in Sources */,
+				9FBBF9DF1C1F8498002EEB3E /* FTTAddBaseTypePageModel.swift in Sources */,
+				9FB3FC041C49C1400020A172 /* FTTPersonalHomeService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +915,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: yuanqing huang (V5M8NXRZWW)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -443,6 +961,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: yuanqing huang (V5M8NXRZWW)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -469,14 +988,20 @@
 			baseConfigurationReference = 74177BB2E261C6BA39DCB0B3 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = the433/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = huangyuanqing.the433;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FTTCore/the433-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -485,14 +1010,19 @@
 			baseConfigurationReference = 43107180EE10DDC7F801D5F4 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = the433/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = huangyuanqing.the433;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FTTCore/the433-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

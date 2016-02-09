@@ -10,6 +10,10 @@ import UIKit
 
 public class FTTBaseModel: NSObject {
     public var items : NSMutableArray?
+    override init() {
+        super.init()
+        self.items = NSMutableArray()
+    }
     public func loadItems(){
     
     }

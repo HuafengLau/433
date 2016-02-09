@@ -7,6 +7,17 @@
 //
 
 import UIKit
+public func FTTColorRedColor() -> UIColor{
+    return UIColor.colorFromRGB(0xf24141)
+}
+
+public func FTTColorGreenColor() -> UIColor{
+    return UIColor.colorFromRGB(0x51be5b)
+}
+
+public func FTTColorBlueColor() -> UIColor{
+    return UIColor.colorFromRGB(0x68b5f4)
+}
 
 public class FTTCommonFunction: NSObject {
     
@@ -16,3 +27,4 @@ public class FTTCommonFunction: NSObject {
         return calender.isDate(date1, inSameDayAsDate: date2)
     }
 }
+

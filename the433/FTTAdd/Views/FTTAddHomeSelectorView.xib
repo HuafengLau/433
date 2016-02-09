@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FTTAddHomeSelectorView" customModule="the433" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="pYZ-4b-2PO">
+                    <rect key="frame" x="40" y="25" width="240" height="30"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pp2-tr-yHD">
+                            <rect key="frame" x="0.0" y="0.0" width="80" height="30"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                            <state key="normal" title="高风险"/>
+                            <connections>
+                                <action selector="highAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="eqo-eo-Kqn"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="R5T-d8-GCh">
+                            <rect key="frame" x="80" y="0.0" width="80" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                            <state key="normal" title="中风险"/>
+                            <connections>
+                                <action selector="midAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="lHw-CR-JRD"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ONr-2d-uQU">
+                            <rect key="frame" x="160" y="0.0" width="80" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                            <state key="normal" title="低风险"/>
+                            <connections>
+                                <action selector="lowAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="Rtj-Cn-rjY"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="highButton" destination="pp2-tr-yHD" id="pl1-Dc-Thb"/>
+                <outlet property="lowButton" destination="ONr-2d-uQU" id="Se9-rO-Y06"/>
+                <outlet property="midButton" destination="R5T-d8-GCh" id="Yo7-yj-Lng"/>
+                <outlet property="typeBackView" destination="pYZ-4b-2PO" id="t1p-D2-gXw"/>
+            </connections>
+            <point key="canvasLocation" x="280" y="67"/>
+        </view>
+    </objects>
+</document>

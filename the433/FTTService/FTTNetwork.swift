@@ -119,7 +119,7 @@ public class FTTNetwork: NSOperation {
     // MARK:
     // MARK: -异步发送请求
     public func send (responseType: FTTResponseType?, completionHandler: (FTTRequestEntity) -> Void) -> Void {
-        
+        self.prepareSendRequest()
         if let typ1 = responseType {
             switch (typ1) {
             case .JSON: self.sendForJson(completionHandler)
@@ -143,5 +143,9 @@ public class FTTNetwork: NSOperation {
             req1.cancel()
         }
         super.cancel()
+    }
+    
+    func prepareSendRequest() -> Void {
+        self.aRequest = request(self.AFMethod(), self.urlString, parameters: self.parameters)
     }
 }
